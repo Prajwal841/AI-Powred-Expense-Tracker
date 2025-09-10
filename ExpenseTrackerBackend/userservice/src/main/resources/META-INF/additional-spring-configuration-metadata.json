@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "jwt.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.secret'"
+  },
+  {
+    "name": "jwt.expiration",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.expiration'"
+  },
+  {
+    "name": "google.client-id",
+    "type": "java.lang.String",
+    "description": "A description for 'google.client-id'"
+  },
+  {
+    "name": "google.acceptable-skew-seconds",
+    "type": "java.lang.String",
+    "description": "A description for 'google.acceptable-skew-seconds'"
+  }
+]}

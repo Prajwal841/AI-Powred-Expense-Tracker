@@ -1,0 +1,29 @@
+2025-09-04T03:32:45.303+05:30  WARN 41880 --- [user-service] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h9s639ms941µs400ns).
+2025-09-04T08:45:34.673+05:30  WARN 41880 --- [user-service] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h12m54s532ms42µs300ns).
+2025-09-04T09:32:31.876+05:30  WARN 41880 --- [user-service] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m27s103ms436µs200ns).
+2025-09-04T13:59:57.559+05:30  INFO 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-09-04T13:59:57.579+05:30 DEBUG 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2025-09-04T13:59:57.596+05:30 DEBUG 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@e362c57, started on Mon Sep 01 23:36:45 IST 2025
+2025-09-04T13:59:57.658+05:30  INFO 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USER-SERVICE with eureka with status DOWN
+2025-09-04T13:59:57.714+05:30 DEBUG 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147482623
+2025-09-04T13:59:57.735+05:30  INFO 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-04T13:59:57.765+05:30  INFO 41880 --- [user-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-04T13:59:57.766+05:30 DEBUG 41880 --- [user-service] [tomcat-shutdown] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerGracefulShutdown' completed its stop procedure
+2025-09-04T13:59:57.766+05:30 DEBUG 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147481599
+2025-09-04T13:59:57.781+05:30 DEBUG 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerStartStop' completed its stop procedure
+2025-09-04T13:59:57.781+05:30 DEBUG 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 1073741823
+2025-09-04T13:59:57.781+05:30 DEBUG 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Bean 'applicationTaskExecutor' completed its stop procedure
+2025-09-04T13:59:57.781+05:30 DEBUG 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2025-09-04T13:59:57.781+05:30 DEBUG 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Successfully stopped bean 'refreshScopeLifecycle'
+2025-09-04T13:59:57.881+05:30 DEBUG 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Bean 'reactorResourceFactory' completed its stop procedure
+2025-09-04T13:59:57.881+05:30 DEBUG 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147483647
+2025-09-04T13:59:57.883+05:30 DEBUG 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Bean 'springBootLoggingLifecycle' completed its stop procedure
+2025-09-04T13:59:57.890+05:30 DEBUG 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Custom destroy method 'close' on bean with name 'eurekaServiceRegistry' completed
+2025-09-04T13:59:57.894+05:30 DEBUG 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2025-09-04T13:59:57.895+05:30 DEBUG 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2025-09-04T13:59:57.897+05:30 DEBUG 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-04T13:59:57.900+05:30  INFO 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-04T13:59:57.922+05:30  INFO 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-04T13:59:57.926+05:30  INFO 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-04T13:59:57.929+05:30  INFO 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-09-04T13:59:57.929+05:30  INFO 41880 --- [user-service] [RMI TCP Connection(2125)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
